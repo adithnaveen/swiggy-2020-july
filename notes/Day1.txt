@@ -55,6 +55,17 @@ git config --global alias.<alias-name> <git-command>.  ???
 
 
 
+1. you should have folder <training>
+2. cd training 
+3. git init 
+4. git config 
+
+5. create some files - transient 
+6. add files to git (let git know your files) - you can rollback 
+				git rm --cached <file>
+7. you can commit 
+
+
 
 
 
