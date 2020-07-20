@@ -51,7 +51,7 @@ git config --global user.name <name>
 git config --global user.email <email>
 git config --global alias.<alias-name> <git-command>.  ??? 
 > git config --system core.editor <editor>
-> git config --global -edit 
+> git config --global --edit 
 
 
 
@@ -66,7 +66,43 @@ git config --global alias.<alias-name> <git-command>.  ???
 7. you can commit 
 
 8. create repo in github 
+	https://github.com/adithnaveen/swiggy-2020-july.git
 9. refer to your local folder to github 
+	git push origin master 
+10. on the chat put your github link 
+
+
+
+https://github.com/shubham491/swiggy-2020
+https://github.com/rt30/Swiggy-2020-rt
+https://github.com/adityaranjan65
+https://github.com/aadithyamd/swiggy-bootcamp.git
+https://github.com/upadhyay-p/swiggy-bootcamp
+https://github.com/swap-pakhare/test
+https://github.com/naga-hemanth/TempTraining
+https://github.com/dgoyal888/swiggy-bootcamp
+https://github.com/shashijangra22/swiggy-training
+https://github.com/abhi-121/swiggy-2020-july
+https://github.com/shyamal2021/Swiggy_bootcamp
+https://github.com/karthik-blip/swiggy-2020-july 
+https://github.com/BhaviD/Swiggy_Bootcamp
+https://github.com/varungupte/Swiggy-GIT-Training
+https://github.com/swiggy-test/swiggy-2020
+https://github.com/rohan-rvb/TestRepo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
