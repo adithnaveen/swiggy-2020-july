@@ -72,6 +72,15 @@ git config --global alias.<alias-name> <git-command>.  ???
 10. on the chat put your github link 
 
 
+<<<<<<< Local Changes
+> git log
+> git log --oneline 
+> git log --oneline -n 3 (last 3 commit information)
+> git log --grep "testing" --oneline
+
+
+=======
+>>>>>>> External Changes
 
 https://github.com/shubham491/swiggy-2020
 https://github.com/rt30/Swiggy-2020-rt
