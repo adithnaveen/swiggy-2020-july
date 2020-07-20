@@ -72,6 +72,11 @@ git config --global alias.<alias-name> <git-command>.  ???
 10. on the chat put your github link 
 
 
+> git log
+> git log --oneline 
+> git log --oneline -n 3 (last 3 commit information)
+> 
+
 
 https://github.com/shubham491/swiggy-2020
 https://github.com/rt30/Swiggy-2020-rt
