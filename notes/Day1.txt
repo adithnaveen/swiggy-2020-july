@@ -1,0 +1,62 @@
+shashi - c++, python, go is new (M.Tech)
+varun - M.Tech IIIT hyd,, c++, python, java 
+adithya - M.Tech IIIT allahabad, C++, Python, Java 
+aarthi - M.tech CS, C++, Python 
+abhishek - btech IT, IIIT Hyd, c++, python 
+adithya Ranjan - VIT vellur, 
+anshuman - IT, C++, Python, java exp
+bhavi - IIIT IT hyd, C, C++, python 
+deepanshu - IIIT Allahabad - knows basics of Go 
+Hemanth - CS NIT Bhopal - java 
+Karthik - BTech, RVCE EC, c, c++ 
+Milan - VIT swiggy with 6 months, go lang, Java 
+poonganam - IIIT Hyd, EC Familiar with go,
+priya -  IIIT hyd, swiggy intern, c++, python 
+Rohan - Btech IT, IIIT - swiggy working 
+shubham - IIIT HYD, C++, java, python 
+Shyam - IIIT HYD, c++, java, python (docker, kubernetes )
+swapnil - IIIT HYD, c++, Java, intern with swiggy, 
+
+
+git (github)
+golang 
+Rest - GIN 
+gRPC (HTTP 2.0 )
+dynamodb (mysql/oracle/mongodb)
+dynamodb - AWS 
+CI/CD 
+Docker 
+Kubernetes (k8s) 
+Project 
+
+
+
+Scaling 
+	Vertical 
+		Make you computer stronger (64GB)
+	Horizontal 
+		- 8gb 
+		- 8gb 
+		- 8gb 				
+
+
+
+HTTP 1.0 - Stateful 
+HTTP 1.1 - Stateless 
+HTTP 2.0 - full duplex communication 
+
+git config --global -e
+
+git config --global user.name <name>
+git config --global user.email <email>
+git config --global alias.<alias-name> <git-command>.  ??? 
+> git config --system core.editor <editor>
+> git config --global -edit 
+
+
+
+
+
+
+
+
