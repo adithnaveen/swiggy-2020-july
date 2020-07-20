@@ -65,7 +65,8 @@ git config --global alias.<alias-name> <git-command>.  ???
 				git rm --cached <file>
 7. you can commit 
 
-
+8. create repo in github 
+9. refer to your local folder to github 
 
 
 
