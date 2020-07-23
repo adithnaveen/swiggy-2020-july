@@ -17,6 +17,8 @@ func main() {
    url:="https://jsonplaceholder.typicode.com/posts"
 	content := ContentFromServer(url)
 	fmt.Println(PostFromJson(content))
+
+	json.Unmarshal()
 }
 
 func PostFromJson(content string)  [] Posts {
