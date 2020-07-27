@@ -1,0 +1,29 @@
+syntax="proto3";
+
+package greet;
+
+option go_package="greet/greetpb";
+
+message Greeting {
+    string FistName=1;
+    string LastName=2;
+}
+
+message GreetRequest {
+    Greeting greeting =1 ;
+}
+
+message GreetResponse {
+    string result=1;
+}
+
+message GreetFullNameResponse {
+    Greeting greeting =1 ;
+}
+
+service GreetService {
+    rpc Greet(GreetRequest) returns (GreetResponse){}
+    rpc GreetFullName(GreetRequest) returns (GreetFullNameResponse){}
+}
+
+

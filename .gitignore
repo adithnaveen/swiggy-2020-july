@@ -5,4 +5,10 @@ notes/.DS_Store
 
 **/.DS_Store 
 docs
+**/grpc-works/bin/*
+**/grpc-works/pkg/*
+**/grpc-works/src/github.com/*
+**/grpc-works/src/golang.org/*
+**/grpc-works/src/google.golang.org/*
+
 
