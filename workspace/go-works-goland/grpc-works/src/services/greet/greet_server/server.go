@@ -14,6 +14,7 @@ type server struct {
 
 }
 
+type
 
 
 func (*server) Greet (ctx context.Context, req *greetpb.GreetRequest) (*greetpb.GreetResponse, error) {
@@ -31,6 +32,9 @@ func (*server) Greet (ctx context.Context, req *greetpb.GreetRequest) (*greetpb.
 	return res, nil
 
 }
+
+
+
 
 func main() {
 	fmt.Println("Hello World From Server")
