@@ -79,7 +79,6 @@ func GetSpecificOrdersByQuery(c *gin.Context) {
 		"minNoOfOrders": minNumberOfOrders,
 		"showOrder":showOrder,
 	})
-
 }
 
 func main() {
