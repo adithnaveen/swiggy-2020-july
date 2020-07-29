@@ -8,11 +8,10 @@ package main
 
 // go get -u github.com/gin-gonic/gin
 
+
 import (
 	"fmt"
 	"net/http"
-
-	//"net/http"
 	"github.com/gin-gonic/gin"
 	"io/ioutil"
 )
@@ -81,6 +80,13 @@ func GetSpecificOrdersByQuery(c *gin.Context) {
 	})
 }
 
+
+
+func Ping(c *gin.Context)  {
+	c.String(200, "pong")
+}
+
+
 func main() {
 	// router:=gin.new(), this will not carry middle tier work
 	router := gin.Default()
@@ -89,6 +95,7 @@ func main() {
 
 	// http://localhost:5656/api/
 	api.GET("/",  HomePage)
+	api.GET("/ping",  Ping)
 	api.GET("/orders", GetOrders) // to return all orders
 	api.POST("/order", PostOrder)
 

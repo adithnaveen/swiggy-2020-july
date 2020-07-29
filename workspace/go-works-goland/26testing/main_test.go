@@ -6,6 +6,7 @@ package main
 
  */
 import (
+	//"encoding/json"
 	"fmt"
 	"io"
 	"io/ioutil"
@@ -56,11 +57,14 @@ func BenchmarkAdd(b *testing.B) {
 
 
 	func TestHttpRequest(t *testing.T) {
+
 		handler := func(w http.ResponseWriter, r *http.Request) {
 			io.WriteString(w, "{\"status\" : \"good\"}")
 		}
 
-		req := httptest.NewRequest("GET", "https://jsonplaceholder.typicode.com/todos/1", nil)
+		// GET/DELETE - nil
+		// POST/PUT - JSON
+		req := httptest.NewRequest("GET", "https://jsonplasdfsdfceholder.typcode.com/todos/1", nil)
 
 		w := httptest.NewRecorder()
 
@@ -73,15 +77,5 @@ func BenchmarkAdd(b *testing.B) {
 			t.Fatal("status code not okay ")
 		}
 	}
-
-
-
-
-
-
-
-
-
-
 
 
